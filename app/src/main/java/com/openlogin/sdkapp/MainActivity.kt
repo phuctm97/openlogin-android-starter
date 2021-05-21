@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
             clientId = getString(R.string.openlogin_client_id),
             network = OpenLogin.Network.MAINNET,
             redirectUrl = Uri.parse("com.openlogin.sdkapp://auth"),
-            sdkUrl = "http://10.0.2.2:3000",
         )
 
         // Handle user signing in when app is not alive
