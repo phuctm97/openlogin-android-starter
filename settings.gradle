@@ -1,0 +1,3 @@
+rootProject.name = "openlogin-starter"
+
+include ':app'
